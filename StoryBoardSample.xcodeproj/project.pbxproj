@@ -10,7 +10,7 @@
 		A48AF1C31EAF18B000D266F8 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48AF1C21EAF18B000D266F8 /* PinkViewController.swift */; };
 		A48AF1C51EAF1C6E00D266F8 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48AF1C41EAF1C6E00D266F8 /* BlueViewController.swift */; };
 		A48AF1C71EAF1D0B00D266F8 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48AF1C61EAF1D0B00D266F8 /* YellowViewController.swift */; };
-		A48AF1C91EAF324C00D266F8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A48AF1C81EAF324C00D266F8 /* .gitignore */; };
+		A48AF1CB1EAF36CB00D266F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48AF1CA1EAF36CB00D266F8 /* LoginViewController.swift */; };
 		A4BDBB421EAF11A1007CCC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDBB411EAF11A1007CCC30 /* AppDelegate.swift */; };
 		A4BDBB441EAF11A1007CCC30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDBB431EAF11A1007CCC30 /* ViewController.swift */; };
 		A4BDBB471EAF11A1007CCC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BDBB451EAF11A1007CCC30 /* Main.storyboard */; };
@@ -22,7 +22,7 @@
 		A48AF1C21EAF18B000D266F8 /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 		A48AF1C41EAF1C6E00D266F8 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		A48AF1C61EAF1D0B00D266F8 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
-		A48AF1C81EAF324C00D266F8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A48AF1CA1EAF36CB00D266F8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A4BDBB3E1EAF11A1007CCC30 /* StoryBoardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BDBB411EAF11A1007CCC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BDBB431EAF11A1007CCC30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,6 @@
 		A4BDBB351EAF11A1007CCC30 = {
 			isa = PBXGroup;
 			children = (
-				A48AF1C81EAF324C00D266F8 /* .gitignore */,
 				A4BDBB401EAF11A1007CCC30 /* StoryBoardSample */,
 				A4BDBB3F1EAF11A1007CCC30 /* Products */,
 			);
@@ -72,6 +71,7 @@
 				A48AF1C21EAF18B000D266F8 /* PinkViewController.swift */,
 				A48AF1C41EAF1C6E00D266F8 /* BlueViewController.swift */,
 				A48AF1C61EAF1D0B00D266F8 /* YellowViewController.swift */,
+				A48AF1CA1EAF36CB00D266F8 /* LoginViewController.swift */,
 			);
 			path = StoryBoardSample;
 			sourceTree = "<group>";
@@ -135,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48AF1C91EAF324C00D266F8 /* .gitignore in Resources */,
 				A4BDBB4C1EAF11A1007CCC30 /* LaunchScreen.storyboard in Resources */,
 				A4BDBB491EAF11A1007CCC30 /* Assets.xcassets in Resources */,
 				A4BDBB471EAF11A1007CCC30 /* Main.storyboard in Resources */,
@@ -149,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48AF1CB1EAF36CB00D266F8 /* LoginViewController.swift in Sources */,
 				A48AF1C31EAF18B000D266F8 /* PinkViewController.swift in Sources */,
 				A4BDBB441EAF11A1007CCC30 /* ViewController.swift in Sources */,
 				A48AF1C51EAF1C6E00D266F8 /* BlueViewController.swift in Sources */,

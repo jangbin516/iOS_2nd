@@ -1,5 +1,5 @@
 //
-//  BlueViewController.swift
+//  LoginViewController.swift
 //  StoryBoardSample
 //
 //  Created by SDS-015 on 2017. 4. 25..
@@ -8,16 +8,18 @@
 
 import UIKit
 
-class BlueViewController: UIViewController {
-    @IBAction func login(_ sender: Any) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "loginvc")
-        {
-          self.present(vc, animated: true, completion: nil)
-        }
-    }
+class LoginViewController: UIViewController {
 
-    @IBAction func close(_ sender: Any) {
+    @IBOutlet var idText: UITextField!
+    @IBOutlet var pwText: UITextField!
+    
+    @IBAction func login(_ sender: Any) {
+        let userId = idText.text
+        let userPw = pwText.text
+        print("ID:\(userId) pw:\(userPw)")
         self.dismiss(animated: true, completion: nil)
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
